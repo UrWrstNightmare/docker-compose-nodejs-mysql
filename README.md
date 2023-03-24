@@ -2,6 +2,7 @@
 
 ## Run the System
 We can easily run the whole with only a single command:
+
 ```bash
 docker-compose up
 ```
@@ -11,6 +12,17 @@ Docker will pull the MySQL and Node.js images (if our machine does not have it b
 The services can be run on the background with command:
 ```bash
 docker-compose up -d
+```
+
+## Run Migrations
+Install deps using yarn
+```bash
+yarn install
+```
+
+Run sequelize migrations
+```bash
+npx sequelize-cli db:migrate
 ```
 
 ## Stop the System
