@@ -15,6 +15,8 @@ docker-compose up -d
 ```
 
 ## Run Migrations
+NOTE: The following steps must be done in the `bezkoder-app` directory.
+
 Install deps using yarn
 ```bash
 yarn install
